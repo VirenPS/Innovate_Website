@@ -1,5 +1,6 @@
 :root {
   --off-white: #fafafa;
+  --animation-delay-time:1s ;
 }
 .nav {
   background-color: var(--off-white);
@@ -42,6 +43,10 @@
 }
 
 .section {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #73AD21;
+  display:table
 }
 
 .section-dark {
@@ -50,11 +55,64 @@
 }
 
 .section-content {
+  height: 70vh;
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
 }
 
+.center-horizontal {
+  text-align: center;
+}
+
+.center-vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .clearfix {
   overflow: auto;
+}
+
+.fade-in-1 {
+  color: #FFFFFF;
+  animation: fadeIn ease 4s forwards;
+  animation-delay: 0s;
+}
+.fade-in-2 {
+  color: #FFFFFF;
+  animation: fadeIn ease 4s forwards;
+  /* animation-delay: 2s; */
+  animation-delay: .5s;
+}
+.fade-in-3 {
+  color: #FFFFFF;
+  animation: fadeIn ease 4s forwards;
+  animation-delay: 1s;
+}
+.fade-in-4 {
+  color: #FFFFFF;
+  animation: fadeIn ease 4s forwards;
+  animation-delay: 1.5s;
+}
+.fade-in-5 {
+  color: #FFFFFF;
+  animation: fadeIn ease 4s forwards;
+  animation-delay: 2s;
+}
+.fade-in-6 {
+  color: #FFFFFF;
+  animation: fadeIn ease 4s forwards;
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeIn {
+  to {
+    color: #000000;
   }
+}
+
+.test {
+  border: 5px dashed #1c87c9;
+  background: red;
+}
