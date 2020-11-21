@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import websitepicture from "./WebsitesPicture.png";
+import downarrow from "./DownArrow.png"
 
 class App extends Component {
   render() {
