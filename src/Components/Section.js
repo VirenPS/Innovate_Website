@@ -11,4 +11,3 @@ export default function Section({ title, subtitle, dark, id }) {
   );
 }
 
-// ? operation ----- condition ? value if true : value if false
