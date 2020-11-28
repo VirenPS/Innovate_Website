@@ -29,7 +29,7 @@ class App extends Component {
             </p>
             <p class="fade-in-3">
               <br /><br />
-              Advancing technology provides countless opportunities for growth
+              Advancing technology provides us countless opportunities for growth
             </p>
             <p class="fade-in-4">
               <br /><br />
