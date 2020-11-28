@@ -41,7 +41,7 @@ class App extends Component {
             </p>
             <p class="fade-in-6">
               <br /><br />
-              Now let us help you
+              Now let us help you!
             </p>
 
           </div>
